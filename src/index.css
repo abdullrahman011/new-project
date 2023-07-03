@@ -1,0 +1,176 @@
+body {
+
+  background-color: rgb(186, 231, 248)
+}
+
+.item-1 {
+  position: relative;
+  top: -55px
+}
+
+.item-Info {
+
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  border: black;
+
+
+
+}
+
+.icon-1 {
+  position: relative;
+  top: -40px
+}
+
+.icon-2 {
+  position: relative;
+  top: -25px
+}
+
+.item-Info-A {
+  position: relative;
+  top: -50px;
+  left: 5px;
+  font-size: 10px;
+
+
+}
+
+.item-Info-B {
+  position: relative;
+  top: -82px;
+  left: 200px;
+  font-size: 10px
+}
+
+.item-Info-C {
+  position: relative;
+  top: -113px;
+  left: 400px;
+  font-size: 10px;
+
+}
+
+.item-Info-D {
+  position: relative;
+  top: -145px;
+  left: 600px;
+  font-size: 10px;
+
+}
+
+.item-Search {
+  position: absolute;
+  z-index: 1;
+  top: 120px;
+  left: 80px;
+  font-size: 10px;
+  font-style: oblique;
+
+}
+
+.item-Search-1 {
+  position: relative;
+  top: 22px;
+  left: 540px;
+
+}
+
+.texts {
+  position: absolute;
+  top: -0px;
+  left: 20px
+}
+
+.item-Search-2 {
+  position: relative;
+  top: 4px;
+  left: 685px;
+  color: white
+}
+
+.item-Search-3 {
+  position: relative;
+  top: -20px;
+  left: 728px;
+  color: white
+}
+
+.texts-2 {
+  position: relative;
+  top: 11px
+}
+.LastA{
+  position: absolute;
+  top: 150px;
+  left: 640px;
+  font-size: 10px
+
+}
+.Action{
+  position: absolute;
+  top: 150px;
+  left: 760px;
+  font-size: 10px
+
+}
+.SentD{
+  position: absolute;
+  top: 150px;
+  left: 520px;
+  font-size: 10px;
+}
+.Status{
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  font-size: 10px;
+
+}
+.Email{
+  position: absolute;
+  top: 150px;
+  left: 280px;
+  font-size: 10px;
+}
+.RecipientN{
+  position: absolute;
+  top: 150px;
+  left: 160px;
+  font-size: 10px;
+
+}
+.DocumentN{
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  font-size: 10px;
+
+}
+.Line-1{
+  position: relative;
+  top: -30px;
+  color: black;
+}
+.Doucument-text{
+  position: absolute;
+  top: 10px;
+}
+.proflie-1{
+  position: absolute;
+  top: 40px;
+  z-index: 2;
+}
+.profileP{
+  position: absolute;
+  left: -10px;
+  top: -3px;
+}
+.imgP{
+  left: 40px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
