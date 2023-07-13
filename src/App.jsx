@@ -2,27 +2,23 @@
 
 
 <link rel="stylesheet" href="./page.css"/>
-import Nav from "./Nav"
+import Nav from "./components/Nav"
 import Info from "./Info"
-import Details from "./Details"
+import Details from "./components/Details"
 import Profile from "./Profile"
+import Data from "./components/Data"
 
 export default function App(){
   
 
   return (
     <main  className=" relative">
-     <div className=" proflie-1 absolute" >
-    <Profile />
-    </div>
-    <Nav/>
-    
    
-    <Details/>
+    <Nav className=" relative"/>
     
-    <Info/>
-   
-    
+    <Data/>
+    <Details className=" absolute"/>
+ 
     
     </main>
    
